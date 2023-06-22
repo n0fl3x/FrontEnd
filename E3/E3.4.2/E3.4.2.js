@@ -25,8 +25,8 @@ function simpleNumber(input) {
         return `${input} is invalid input`
     } else {
         numInput = +input;
-        if (numInput === 'NaN') {
-            return `${input} is invalid input`
+        if (isNaN(numInput)) {
+            return 'Can\'t process NaN'
         } else {
             if (numInput <= 0) {
                 return 'Less or equal zero'
