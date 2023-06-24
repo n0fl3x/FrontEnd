@@ -36,4 +36,4 @@ function zeroOddEvenCount(array) {
 
 let arr = [1, 18, 0, NaN, false, 689, 22, 24, 'qwerty', -11659, 7, 0, 0];
 
-zeroOddEvenCount(array = arr);
+zeroOddEvenCount(arr);
