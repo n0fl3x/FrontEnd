@@ -29,3 +29,5 @@ console.log(powerFunc(4, 0));
 console.log(powerFunc(0, 0));
 console.log(powerFunc(0, -1));
 console.log(powerFunc(NaN, NaN));
+console.log(powerFunc(-4, 0,5));
+console.log(powerFunc(-16, -0,5));
